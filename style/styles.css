@@ -1,0 +1,402 @@
+body {
+  margin: 0px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* hero-section styles */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1920px;
+  height: 81vh;
+  padding-top: 5.82vh;
+  flex-shrink: 0;
+  background-image: linear-gradient(45deg, pink, rgba(0, 128, 0, 0.463));
+}
+
+.hero-info {
+  margin: 0px 100px 0px 0px;
+  padding: 0px;
+}
+
+.hero-heading {
+  margin: 0px;
+  padding: 0px;
+  color: #272727;
+  font-family: Playfair Display;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hero-paragraph {
+  color: rgb(39, 39, 39);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  gap: 10px;
+}
+
+/* Our Featured Flowers Section Styles */
+
+/* featured Section Contents Styles */
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.ffc-heading {
+  color: #272727;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ffc-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+/* Featured Section Imgs Styles */
+.featured-flower-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  margin: 0px 12px;
+  border: none;
+  border-radius: 300px 300px 0px 0px;
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+}
+
+#img-container-1 {
+  background-color: rgba(168, 255, 168, 0.255);
+}
+
+#img-container-2 {
+  background-color: rgba(255, 165, 165, 0.31);
+}
+
+#img-container-3 {
+  background-color: rgba(153, 205, 50, 0.422);
+}
+
+.featured-imgs1 {
+  padding-top: 110px;
+}
+
+.featured-imgs2 {
+  padding-top: 110px;
+}
+
+.featured-imgs3 {
+  padding-top: 67px;
+}
+
+.img-cap {
+  color: #272727;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* Hot Deals Section Styles */
+.hot-deals-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1922px;
+  height: 620px;
+  margin-top: 128px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+/* Hot Deals Content Styles */
+.hot-deals-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.hot-deals-heading {
+  color: #272727;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+.hot-deals-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0px 32px 0px;
+}
+
+/* Hot Deals Img Styles */
+.hot-deals-img-container {
+  margin-right: 290px;
+}
+
+/* Insta Section Styles */
+.instagram-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+}
+
+/* Insta Content Styles */
+.instagram-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta-heading {
+  margin: 0px;
+  color: #272727;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.insta-paragraph {
+  margin: 24px 0px 48px 0px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* Insta Imgs styles */
+
+.instagram-imgs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-imgs {
+  margin-left: 18px;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+  background-image: url(../flower-asset/rectangle-9.png);
+}
+
+/* Newsletter Content Styles */
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-heading {
+  margin: 0px;
+  color: #272727;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.newsletter-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* Newsletter Form Styles */
+.email-box {
+  padding-left: 20px;
+  width: 700px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#submit-btn {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+  width: 1922px;
+  height: 449px;
+  flex-shrink: 0;
+  background-color: #111010;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-heading {
+  margin: 0px;
+  color: #e55473;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer-heading-span {
+  color: white;
+}
+
+.footer-paragraph-1 {
+  margin: 32px 0px 24px 0px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-paragraph-2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* About us Styles */
+
+.about-us-heading {
+  margin: 0px;
+  color: #2c2c2c;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.about-us-paragraph {
+  margin: 32px 0px 48px 0px;
+  color: rgba(32, 32, 32, 0.9);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+  height: 80vh;
+  width: 1920px;
+}
+
+.about-us-video {
+  width: 1440px;
+  height: 100%;
+}
